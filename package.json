@@ -1,0 +1,28 @@
+{
+  "name": "omnipromote",
+  "version": "0.0.1",
+  "description": "deploy entire environments from one place to another",
+  "main": "omniPromote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wealthforge-Technologies/omniPromote"
+  },
+  "bin": {
+    "omniPromote": "./omniPromote.js"
+  },
+  "keywords": [
+    "docker",
+    "promote",
+    "dockerpromote",
+    "devops",
+    "bulk"
+  ],
+  "author": "Andrew Batz",
+  "license": "MIT",
+  "dependencies": {
+    "argp": "^1.0.4"
+  }
+}
